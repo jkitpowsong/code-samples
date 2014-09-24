@@ -1,0 +1,212 @@
+@charset "UTF-8";
+/*General HTML elements */
+
+
+body
+		{backgouround-color: #fff;
+		}
+
+h1 	
+		{color: #fff;
+		background-color:#f63;
+	    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	    font-size:18px;
+		margin-top:10px;
+		padding-left:20px;
+		text-transform:uppercase;
+		font-weight:100;}
+		
+h2		{color: #fff;
+		backgoung-color:#f63;}
+		
+
+p		{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		}
+		
+.indent{padding-left:20px;}
+
+#mainnav {padding-left:inherit}
+		
+ul {font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif}
+
+ol {font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif}
+
+
+/*HEADER/
+/* header-logo */
+
+#header {
+		padding-top: 20px;
+		padding-left:100px;
+		margin-left:100px
+		margin-top: 5px;
+		margin-bottom: 0;
+		position:relative;
+		}
+		
+/* top nav bar, located below the header*/
+
+#topnav  {position:relative;
+		 margin-left: 100px;
+		 margin-top:30px;
+		 margin-right: 50px;
+		 font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		 text-transform: uppercase;
+		 font-stretch:expanded;
+		}  
+	
+/* top nav links */
+
+#topnav a:link {color:#000;
+		text-decoration:none;
+		padding-left:4px;
+		padding-right:4px;
+		padding-top:5px;
+		padding-bottom:5px;
+		
+		}    /* unvisited link */
+
+#topnav a:visited {color:#000;
+		  text-decoration:none;
+		  padding-left:4px;
+		  padding-top:5px;
+		  padding-bottom:5px;
+		  padding-right:4px;} /* visited link */
+
+#topnav a:hover	 {background-color:#f63;
+		  color:#fff;
+		  text-decoration:none;
+		  padding-left:4px;
+		  padding-top:5px;
+		  padding-bottom:5px;
+		  padding-right:4px;}   /* mouse over link */
+		
+#topnav a:active {background-color:#f63;
+		  color:#000;
+		  text-decoration:none;
+		  padding-left:4px;
+		  padding-top:5px;
+	      padding-bottom:5px;
+	      padding-right:4px;
+			}  /* selected link */	
+
+/*homepage image */
+
+#homepageimg {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		padding-left: 100px;
+		}
+		
+
+/*FOOTER*/
+#footer {position:relative;
+		 margin-left:100px;
+		 font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		 font-size: 14px;
+		 color:#999;}
+		 
+/*footer nav bar*/
+#footernav a:link 
+		{color:#999;
+		 text-decoration:none;
+	 	}
+
+#footernav a:visited
+		 {color:#999;
+		  text-decoration:none;
+		  }
+
+#footernav a:hover	
+		 {color:#f63;
+		  text-decoration:none;
+		  }   
+		
+#footernav a:active 
+		{color:#f63;
+		}
+		  
+/*BODY IMAGES */
+#bodyimg {margin-left: 100px;
+		  margin-top: 30px;
+		  margin-bottom: 30px;
+		  background-color: #29ABE2;
+		  }
+		  
+
+/*WRAPPER for h1 h2 and p*/
+
+.container 
+{margin-left: 100px;
+}
+
+#wrapper{  
+   width:1200px;  
+   margin:0 auto;  
+   text-align: middle;
+
+ 
+} 
+
+/*Font color to indicate the current page*/
+
+#navcurrent {
+	color: #f63;}
+	
+
+/*links for sitemap*/
+
+#sitemapnav  {
+		 font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		 } 
+		  
+
+#sitemapnav a:link {color:#000;
+		text-decoration:none;
+	}    /* unvisited link */
+
+#sitemapnav a:visited {color:#000;
+		  text-decoration:none;
+		  } /* visited link */
+
+#sitemapnav a:hover	 {
+		  color:#f63;
+		  text-decoration:none;
+		  }   /* mouse over link */
+		
+#sitemapnav a:active {
+		  color:#000;
+		  text-decoration:none;
+		  
+			}  /* selected link */	
+		
+		
+/*Alert box */
+Alert{
+color : #124332;
+background-color: #ffffff;
+header-colors : #243322, #243322;
+header-height:19;
+drop-shadow-enabled: true;
+drop-shadow-color :#243322;
+corner-radius :6;
+border-style :solid;
+border-thickness: 1;
+border-color : #243322;
+footer-colors : #243322, #ffffff;
+title-style-name : "title";
+}
+			
+			
+/* Title beside body images
+
+#titleimg {
+	position:relative;
+	left: 700px;
+	top:477px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color:#fff;
+	font-size:100px;
+	width: 504px;
+}
+*/
